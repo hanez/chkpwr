@@ -1,12 +1,12 @@
 all:
-	$(CC) -Wall -o checkpwrule checkpwrule.c
+	$(CC) -Wall -o chkpwr chkpwr.c
 
 clean:
-	rm -f ./checkpwrule
+	rm -f ./chkpwr
 
 install:
-	cp ./checkpwrule /usr/bin/
+	cp ./chkpwr /usr/bin/
 
 uninstall:
-	rm -f /usr/bin/checkpwrule
+	rm -f /usr/bin/chkr
 
